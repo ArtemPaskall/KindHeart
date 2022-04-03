@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ArtemPaskall/kindheart/static/css/main.88bfe962.css",
-    "main.js": "/ArtemPaskall/kindheart/static/js/main.056f19f1.js",
+    "main.js": "/ArtemPaskall/kindheart/static/js/main.20ef2cae.js",
     "static/media/Geometria.ttf": "/ArtemPaskall/kindheart/static/media/Geometria.0db3c3ee492d73b6c683.ttf",
     "static/media/Geometria-Bold.ttf": "/ArtemPaskall/kindheart/static/media/Geometria-Bold.f9fb6a8803ccecf46a2a.ttf",
     "static/media/Geometria-ExtraBold.ttf": "/ArtemPaskall/kindheart/static/media/Geometria-ExtraBold.d5689a0884aa3e43fbce.ttf",
@@ -18,10 +18,10 @@
     "static/media/wear-blue.svg": "/ArtemPaskall/kindheart/static/media/wear-blue.c3a25d0951d3b85a6e36.svg",
     "static/media/wallet-blue.svg": "/ArtemPaskall/kindheart/static/media/wallet-blue.fce33960c4481ac07d95.svg",
     "main.88bfe962.css.map": "/ArtemPaskall/kindheart/static/css/main.88bfe962.css.map",
-    "main.056f19f1.js.map": "/ArtemPaskall/kindheart/static/js/main.056f19f1.js.map"
+    "main.20ef2cae.js.map": "/ArtemPaskall/kindheart/static/js/main.20ef2cae.js.map"
   },
   "entrypoints": [
     "static/css/main.88bfe962.css",
-    "static/js/main.056f19f1.js"
+    "static/js/main.20ef2cae.js"
   ]
 }
