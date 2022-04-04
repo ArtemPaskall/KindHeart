@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/ArtemPaskall/KindHeart/static/css/main.63f06ddf.css",
-    "main.js": "/ArtemPaskall/KindHeart/static/js/main.ff4ca16a.js",
-    "static/media/Geometria.ttf": "/ArtemPaskall/KindHeart/static/media/Geometria.0db3c3ee492d73b6c683.ttf",
-    "static/media/Geometria-Bold.ttf": "/ArtemPaskall/KindHeart/static/media/Geometria-Bold.f9fb6a8803ccecf46a2a.ttf",
-    "static/media/Geometria-ExtraBold.ttf": "/ArtemPaskall/KindHeart/static/media/Geometria-ExtraBold.d5689a0884aa3e43fbce.ttf",
-    "static/media/Gilroy-ExtraBold.otf": "/ArtemPaskall/KindHeart/static/media/Gilroy-ExtraBold.0094146a0505298ed06a.otf",
-    "static/media/Gilroy-Light.otf": "/ArtemPaskall/KindHeart/static/media/Gilroy-Light.cc7ab55d27205bd64001.otf",
-    "static/media/webmoney.svg": "/ArtemPaskall/KindHeart/static/media/webmoney.a2de30bc4d52aeea830d.svg",
-    "static/media/pay-pall.svg": "/ArtemPaskall/KindHeart/static/media/pay-pall.2f730dacb51a9b02e5aa.svg",
-    "static/media/mastercard_white.svg": "/ArtemPaskall/KindHeart/static/media/mastercard_white.973905d6283da440b663.svg",
-    "static/media/terminal.svg": "/ArtemPaskall/KindHeart/static/media/terminal.b862054ae37935ebdaf5.svg",
-    "static/media/hand-blue.svg": "/ArtemPaskall/KindHeart/static/media/hand-blue.d24080f75279dccb25b4.svg",
-    "index.html": "/ArtemPaskall/KindHeart/index.html",
-    "static/media/visa.svg": "/ArtemPaskall/KindHeart/static/media/visa.9706ce48bec31a0c780d.svg",
-    "static/media/heart-blue.svg": "/ArtemPaskall/KindHeart/static/media/heart-blue.fdaba477f654dbc6dce5.svg",
-    "static/media/wear-blue.svg": "/ArtemPaskall/KindHeart/static/media/wear-blue.c3a25d0951d3b85a6e36.svg",
-    "static/media/wallet-blue.svg": "/ArtemPaskall/KindHeart/static/media/wallet-blue.fce33960c4481ac07d95.svg",
-    "main.63f06ddf.css.map": "/ArtemPaskall/KindHeart/static/css/main.63f06ddf.css.map",
-    "main.ff4ca16a.js.map": "/ArtemPaskall/KindHeart/static/js/main.ff4ca16a.js.map"
+    "main.css": "./static/css/main.516ce6b8.css",
+    "main.js": "./static/js/main.ff4ca16a.js",
+    "static/media/Geometria.ttf": "./static/media/Geometria.0db3c3ee492d73b6c683.ttf",
+    "static/media/Geometria-Bold.ttf": "./static/media/Geometria-Bold.f9fb6a8803ccecf46a2a.ttf",
+    "static/media/Geometria-ExtraBold.ttf": "./static/media/Geometria-ExtraBold.d5689a0884aa3e43fbce.ttf",
+    "static/media/Gilroy-ExtraBold.otf": "./static/media/Gilroy-ExtraBold.0094146a0505298ed06a.otf",
+    "static/media/Gilroy-Light.otf": "./static/media/Gilroy-Light.cc7ab55d27205bd64001.otf",
+    "static/media/webmoney.svg": "./static/media/webmoney.a2de30bc4d52aeea830d.svg",
+    "static/media/pay-pall.svg": "./static/media/pay-pall.2f730dacb51a9b02e5aa.svg",
+    "static/media/mastercard_white.svg": "./static/media/mastercard_white.973905d6283da440b663.svg",
+    "static/media/terminal.svg": "./static/media/terminal.b862054ae37935ebdaf5.svg",
+    "static/media/hand-blue.svg": "./static/media/hand-blue.d24080f75279dccb25b4.svg",
+    "index.html": "./index.html",
+    "static/media/visa.svg": "./static/media/visa.9706ce48bec31a0c780d.svg",
+    "static/media/heart-blue.svg": "./static/media/heart-blue.fdaba477f654dbc6dce5.svg",
+    "static/media/wear-blue.svg": "./static/media/wear-blue.c3a25d0951d3b85a6e36.svg",
+    "static/media/wallet-blue.svg": "./static/media/wallet-blue.fce33960c4481ac07d95.svg",
+    "main.516ce6b8.css.map": "./static/css/main.516ce6b8.css.map",
+    "main.ff4ca16a.js.map": "./static/js/main.ff4ca16a.js.map"
   },
   "entrypoints": [
-    "static/css/main.63f06ddf.css",
+    "static/css/main.516ce6b8.css",
     "static/js/main.ff4ca16a.js"
   ]
 }
