@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.516ce6b8.css",
-    "main.js": "./static/js/main.ff4ca16a.js",
+    "main.css": "./static/css/main.d90b0897.css",
+    "main.js": "./static/js/main.41cbef91.js",
     "static/media/Geometria.ttf": "./static/media/Geometria.0db3c3ee492d73b6c683.ttf",
     "static/media/Geometria-Bold.ttf": "./static/media/Geometria-Bold.f9fb6a8803ccecf46a2a.ttf",
     "static/media/Geometria-ExtraBold.ttf": "./static/media/Geometria-ExtraBold.d5689a0884aa3e43fbce.ttf",
@@ -17,11 +17,11 @@
     "static/media/heart-blue.svg": "./static/media/heart-blue.fdaba477f654dbc6dce5.svg",
     "static/media/wear-blue.svg": "./static/media/wear-blue.c3a25d0951d3b85a6e36.svg",
     "static/media/wallet-blue.svg": "./static/media/wallet-blue.fce33960c4481ac07d95.svg",
-    "main.516ce6b8.css.map": "./static/css/main.516ce6b8.css.map",
-    "main.ff4ca16a.js.map": "./static/js/main.ff4ca16a.js.map"
+    "main.d90b0897.css.map": "./static/css/main.d90b0897.css.map",
+    "main.41cbef91.js.map": "./static/js/main.41cbef91.js.map"
   },
   "entrypoints": [
-    "static/css/main.516ce6b8.css",
-    "static/js/main.ff4ca16a.js"
+    "static/css/main.d90b0897.css",
+    "static/js/main.41cbef91.js"
   ]
 }
