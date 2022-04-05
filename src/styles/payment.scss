@@ -1,0 +1,176 @@
+.App {
+  &__payment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    @media (max-width: 810px) {
+      flex-direction: column;
+    }
+
+    border: 2px solid $linkColor;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    color: $lableColor;
+  } 
+
+  &__left-section {
+    margin: 10px;
+  }
+
+  &__system-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    @media (max-width: 970px) {
+      & {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (max-width: 810px) {
+      & {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+    @media (max-width: 620px) {
+      & {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    margin-top: 5px;
+    gap: 22px;
+  }
+
+  &__pay-system {
+    width: 140px;
+    height: 70px;
+    border-radius: 8px;
+    background-color: $linkColor;
+    border: 0;
+
+
+    &:hover {
+      background-color: $linkOnFocus;
+      transition: 0.4s;
+    }
+
+      &--1 {
+        background-image: url(../../src/Images/visa.svg);
+        background-repeat: no-repeat;
+        background-size: 70px;
+        background-position: top -5px left 50%;
+      }
+
+      &--2 {
+        background-image: url(../../src/Images/webmoney.svg);
+        background-repeat: no-repeat;
+        background-size: 65px;
+        background-position: top 0 left 50%;
+      }
+
+      &--3 {
+        background-image: url(../../src/Images/pay-pall.svg);
+        background-repeat: no-repeat;
+        background-size: 55px;
+        background-position: top 5px left 50%;
+      }
+
+      &--4 {
+        background-image: url(../../src/Images/mastercard_white.svg);
+        background-repeat: no-repeat;
+        background-size: 70px;
+        background-position: top 0 left 50%;
+      }
+
+      &--5 {
+        background-image: url(../../src/Images/terminal.svg);
+        background-repeat: no-repeat;
+        background-size: 50px;
+        background-position: top 8px left 50%;
+      }
+    &--isActive {
+      background-color: $linkOnFocus;
+    }
+  }
+
+  &__right-section {
+    margin: 10px;
+  }
+  
+  &__credit-card {
+    width: 330px;
+    height: 165px;
+    border-radius: 10px;
+    margin-top: 5px;
+    background-color: $linkColor;
+    color: #fff;
+    font-size: 12px;  
+  }
+
+  &__card-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__card-upper-field {
+    margin: 10px;
+  }
+
+  &__card-number {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;  
+  }
+ 
+  &__card-input {
+    width: 67px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: $formFieldColor;
+    border: 0;
+    padding: 0;
+
+    @include inputShadow($inputShadow, $boxShadow);
+  }
+
+  &__card-bottom-field {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+  }
+
+  &__card-term {
+    &--input {
+      width: 125px;
+      height: 32px;
+      border-radius: 5px;
+      background-color: $formFieldColor;
+      margin-top: 5px;   
+      border: 0;  
+      padding: 0;
+    
+      @include inputShadow($inputShadow, $boxShadow);
+    }
+  }
+
+  &__card-code {
+    &--input {
+      width: 125px;
+      height: 32px;
+      border-radius: 5px;
+      background-color: $formFieldColor;
+      margin-top: 5px;  
+      border: 0;  
+      padding: 0;
+
+      @include inputShadow($inputShadow, $boxShadow);
+    }
+  } 
+}

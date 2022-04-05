@@ -1,0 +1,11 @@
+.Container {
+  max-width: 950px;
+  padding: 50px 60px;
+  margin: 0 auto;
+  box-shadow: 1px 0px 37px -14px rgba(0,0,0,0.48);
+  @media (max-width: 560px) {
+    & {
+      padding: 50px 30px;
+    }
+  } 
+}

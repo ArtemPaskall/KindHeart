@@ -1,0 +1,16 @@
+@import '../styles/variables.scss';
+
+.User {
+  padding-top: 30px;
+  color: $textColor;
+  font-weight: bold;
+  border: 4px solid rgb(247, 208, 39);
+  border-radius: 10px;
+  background-color: rgb(253, 244, 204);
+   
+  &__header {
+    font-size: 24px;
+  }
+}
+
+
