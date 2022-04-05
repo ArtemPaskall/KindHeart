@@ -1,7 +1,7 @@
-# Getting Started with Create React App
+# Kind Heart project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+ [Kind Heart](https://artempaskall.github.io/KindHeart/).
+ 
 ## Available Scripts
 
 In the project directory, you can run:
