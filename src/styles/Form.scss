@@ -1,0 +1,118 @@
+.App {
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 40px;
+
+    &--logo {
+      position: absolute;
+      text-decoration: none;
+      font-weight: bold;
+      transform: translate(360px, 119px);
+      color: #5996db;
+      @media (max-width: 930px) {
+        & {
+          transform: translate(5px, 152px);
+        }
+      } 
+      @media (max-width: 750px) {
+        & {
+          display: none;
+        }
+      } 
+    }
+
+    &--logo-mobile {
+      display: block;
+      font-size: 16px;
+      font-weight: bold;
+      color: #5996db;
+    }
+
+  }
+
+  &__input-block {   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    flex-shrink: 1;
+    @media (max-width: 750px) {
+      & {
+        display: none;
+      }
+    } 
+
+    &--mobile {
+      display: block;
+      margin: 0 auto;
+      @media (min-width: 750px) {
+        & {
+          display: none;
+        }
+      } 
+    }
+  }
+ 
+
+  &__1-column {
+    max-width: 350px;
+    flex-grow: 1;
+    flex-basis: 200px;
+
+    &--2in1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+  }
+
+  &__2-column {
+    max-width: 350px;
+    flex-grow: 1;
+    flex-basis: 200px;
+
+    &--last {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+  }
+
+  &__label {
+    display: block;
+    text-align: left; 
+    font-weight: bold;
+    font-size: 13px;
+    color: rgb(129, 126, 126);
+    margin-top: 15px;
+
+    &--iPad {
+      @media (max-width: 930px) {
+        & {
+          margin-top: 27px;
+        }
+      } 
+
+      @media (max-width: 750px) {
+        & {
+          margin-top: 15px;
+        }
+      } 
+    }
+  }
+
+  &__input {
+    height: 30px;
+    border: none;
+    background-color: #eff4f8;
+    margin: 5px 10px 10px 0;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+
+    @include inputShadow($inputShadowForm, $boxShadowForm);
+  }
+}

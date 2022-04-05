@@ -1,0 +1,34 @@
+@mixin inputShadow($a, $b) {
+
+  &:hover {
+    -webkit-box-shadow: $a; 
+    box-shadow: $b;
+  }
+
+  &:focus {
+    -webkit-box-shadow: $a; 
+    box-shadow: $b;
+  }
+}
+
+
+// @mixin mobile {
+//     @media (min-width: 320px) {
+//       @content;
+//     }
+//   }
+  
+//   @mixin iPad {
+//     @media (min-width: 768px) {
+//       @content;
+//     }
+//   }
+  
+//   @mixin Desk {
+//     @media (min-width: 1280px) {
+//       @content;
+//     }
+//   }
+  
+
+

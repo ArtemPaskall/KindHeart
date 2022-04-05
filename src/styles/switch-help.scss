@@ -1,0 +1,125 @@
+.App {
+
+  &__help {
+    font-weight: 500;
+    font-size: 56px;
+    color: $textColor;
+    margin-top: 50px;
+
+  }
+
+  &__help-description {
+    font-size: 16px;
+    margin-top: 7px;
+  }
+
+  &__switch-help {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px 20px 0;
+    @media (max-width: 480px) {
+      & {
+        margin: 35px 0 0;
+      }
+    } 
+  }
+
+  &__switch-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: 910px) {
+      & {
+        margin-bottom: 20px;
+        // width: 190px;
+         min-width: 190px;
+      }
+    } 
+    @media (max-width: 480px) {
+      & {
+        border: 2px solid $linkColor;
+        border-radius: 10px;
+        width: 100%;
+        padding: 5px;
+      }
+    } 
+  }
+
+  &__switch-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+
+    &:hover .App__switch-img {
+      background-color: $linkOnFocus;
+      transition: 0.4s;
+      border: 2px solid $linkOnFocus;
+    }
+   
+    &:hover .App__switch-span {
+      color: $textColor;
+      transition: 0.4s;
+    }
+  }
+
+  &__switch-img {
+    width: 70px;
+    height: 70px;
+    border: 2px solid $linkColor;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+
+    &--is-active {
+      background-color: $linkOnFocus;
+      border: 2px solid $linkOnFocus;
+    }
+  }
+
+  &__switch-picture--1 {
+    background-image: url(../Images/hand-blue.svg);
+    width: 45px;
+    height: 45px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+  }
+
+  &__switch-picture--2 {
+    width: 45px;
+    height: 45px;
+    background-image: url(../Images/wallet-blue.svg);
+  }
+
+  &__switch-picture--3 {
+    background-image: url(../Images/wear-blue.svg);
+    width: 45px;
+    height: 45px;
+    margin: 0 auto;
+  }
+
+  &__switch-picture--4 {
+    background-image: url(../Images/heart-blue.svg);
+    width: 45px;
+    height: 45px;
+    margin: 0 auto;
+  }
+
+  &__switch-span {
+    color: $linkColor;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    @media (max-width: 480px) {
+      & {
+        margin: 0 auto;
+      }
+    } 
+
+    &--is-active {
+      color: $textColor;
+    }
+  }
+}
