@@ -2,7 +2,7 @@
 
  [Kind Heart](https://artempaskall.github.io/KindHeart/).
  
-## ## Еechnologies that have been applied
+## ## Technologies that have been applied
 
 -HTML5, CSS3
 
